@@ -72,6 +72,7 @@ app.put('/categories/:id', (req, res) => {
         categories[index] = updatedCategory;
         res.json(updatedCategory)
     }
+
 });
 
 app.listen(port, () => {
